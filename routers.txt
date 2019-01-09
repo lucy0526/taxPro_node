@@ -1,0 +1,4 @@
+/		get		null				登录页面	login.html	null
+/login		post		account,password		提交登录信息	/main_page	id
+/main_page	get		id				跳转到工作主页	home.html	account（name,headImage,dept）,infoList(info_id,title,type,creator,create_time),complainList(comp_id,comp_title,state,is_NM,comp_time)
+/info		get		infoId=
